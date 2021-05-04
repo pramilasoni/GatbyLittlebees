@@ -1,5 +1,5 @@
 import React from "react"
-import { graphql } from 'gatsby'
+import { graphql } from "gatsby"
 import Img from "gatsby-image"
 import styled from "styled-components"
 
@@ -23,7 +23,7 @@ const IndexPage = ({ data }) => {
     <Layout>
       <SEO
         title="The Project"
-        description="A Gatsby site to be proud of."
+        description="A Littlebees "
         image="/logo.png"
         pathname="/"
         // Boolean indicating whether this is an article:
@@ -35,9 +35,7 @@ const IndexPage = ({ data }) => {
           fluid={data.headerImage.childImageSharp.fluid}
           alt="Robots"
         />
-        <PageHeader className={style.heading}>
-          Welcome to the Project
-        </PageHeader>
+        <PageHeader className={style.heading}>Littlebees</PageHeader>
         <NeuWrapper>
           <p>This is the site we built together using Gatsby.</p>
           <p>
